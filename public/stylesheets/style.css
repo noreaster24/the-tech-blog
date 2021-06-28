@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: #9FE2BF;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #9FE2BF;
+    font-weight: bold;
+    transition: color .1s;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+a:hover {
+    color: brown;
+}
