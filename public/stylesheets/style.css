@@ -33,6 +33,14 @@ header a {
     border-radius: 18px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+    margin: 10px;
+}
+
 a:hover {
     color: brown;
 }
@@ -116,5 +124,20 @@ form label {
     max-width: 35%;
     background-color: black;
     color: #9FE2BF;
+}
+
+button {
+    color: black;
+    background-color: #9FE2BF;
+    border-radius: 20px;
+    border: none;
+    padding: 1%;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+button:focus {
+    color: #9FE2BF;
+    background-color: black;
 }
 
