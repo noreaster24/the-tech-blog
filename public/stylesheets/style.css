@@ -18,7 +18,7 @@ header {
     padding: 30px;
 }
 
-a {
+header a {
     text-decoration: none;
     color: black;
     background-color: #9FE2BF;
@@ -30,4 +30,41 @@ a {
 
 a:hover {
     color: brown;
+}
+
+li {
+    padding: 20px 30px 20px 30px;
+}
+
+.post {
+    border: 1pt solid black;
+    padding: 2px;
+}
+
+.title {
+    font-size: 20px;
+    background-color: black;
+    min-height: 40px;
+}
+
+.title a {
+    color: gray;
+    font-size: 14px;
+    justify-content: left;
+    align-content: center;
+}
+
+.title p {
+    color: gray;
+    font-size: 11px;
+    justify-content: right;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.post-date {
+    color: gray;
+    font-size: 10px;
 }
