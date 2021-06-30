@@ -1,3 +1,15 @@
+## How to Use
+* In the CLI, type 'npm start'
+* In your browser, navigate to https://localhost:3001 or https://secure-coast-45223.herokuapp.com/
+* Select 'login' on the top right and create a new user account
+* Once logged in, you can view posts on the homepage and leave comments
+* If you navigate to 'dashboard' you are able to create a new post
+* When done, be sure to select 'logout'
+
+## Images
+![Homepage](./public/images/homepage.png)
+![Dashboard](./public/images/dashboard.png)
+
 ### User Story
 * AS A developer who writes about tech
 * I WANT a CMS-style blog site
